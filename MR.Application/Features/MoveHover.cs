@@ -18,6 +18,7 @@ namespace MR.Application.Features
                 {
                     var hover = new Hover();
                     var moveResponse = new MoveResponse();
+
                     if (startCoordinatesMove.StartCoordinates.Count() == 3)
                     {
                         hover.X = Convert.ToInt32(startCoordinatesMove.StartCoordinates[0]);
@@ -58,6 +59,9 @@ namespace MR.Application.Features
                     moveResponse.FinalCoordinates = $"{hover.X} {hover.Y} {hover.Direction}";
                     moveResponse.Moves = startCoordinatesMove.Moves;
                     moveResponse.StartCoordinates = startCoordinatesMove.StartCoordinates;
+                    
+                    if (moveResponse.ErrorMessages.Count == 0)
+                        moveResponse.ErrorMessages = null;
 
                     result.Add(moveResponse);
                 }
