@@ -23,15 +23,6 @@
 					"E"
 				],
 				"moves": "MMRMMRMRRM"
-			},
-			{
-				"startCoordinates": [
-					"1",
-					"2",
-					"N",
-					"S"
-				],
-				"moves": "KLLMM"
 			}
 		]
 	}
