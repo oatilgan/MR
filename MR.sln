@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MR.Application", "MR.Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MR.Api", "MR.Api\MR.Api.csproj", "{68E5BF86-9643-41D3-84E0-D81F0568504B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{2822B20B-660B-4B26-8EA2-236B139864AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR.Test", "Test\MR.Test.csproj", "{2822B20B-660B-4B26-8EA2-236B139864AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
